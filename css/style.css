@@ -207,12 +207,12 @@ button:hover{
         margin-left: 40px;
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 590px) {
     .main{
         margin-top: 0vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         text-align: center;
     }
     .logo img{
@@ -228,11 +228,19 @@ button:hover{
         margin-top: 10vh;
         margin-left: 10px;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 10px;
     }
     .left{
         text-align: center;
         margin-left: 40px;
-        
+    }
+    .left h1{
+        font-size: 20px;
+    }
+    .left h3{
+        font-size: 20px;
+    }
+    .left P{
+        font-size: 20px;
     }
   }
